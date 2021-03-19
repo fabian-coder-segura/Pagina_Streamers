@@ -1,0 +1,159 @@
+
+.card{
+    position: fixed;
+}
+.carousel-inner{
+    height: 350px;
+    padding: 20px;
+}
+
+.cards-item-content{
+    background-color: black;
+    height: 200px;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+}
+
+.card-item-description{
+    margin: 20px;
+}
+.cards-item-img img{
+    width:240px ;
+    align-items: center;
+    padding: 20px;
+    margin: 100px;
+
+}
+.card-item-search{
+    
+    margin: 100px;
+}
+.banner-img{
+    height: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.social{
+    position: fixed;
+    left: 0%;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+}
+.social ul li .icon-facebook{
+    background:#3b5998 ;
+}
+.social ul li .icon-instagram{
+    background: #3f729b;
+}
+.social ul li .icon-twitter{
+    background: #00abd0;
+}
+.social ul li .icon-twitch{
+    background: #6441a5;
+}
+.social ul li .icon-discord{
+    background: #011169;
+}
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:white;
+}
+footer{
+   
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    background-color:black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+      
+}
+.footer-social li{
+    margin: 0 10px;
+
+}
+.footer-social a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    
+}
+.footer-social a:hover{
+    color: aqua;
+}
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-break: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
